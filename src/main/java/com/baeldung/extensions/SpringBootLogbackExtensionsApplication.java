@@ -12,7 +12,7 @@ public class SpringBootLogbackExtensionsApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SpringBootLogbackExtensionsApplication.class, args);
-
+        logger.error("errore scritto da Leonardo");
         logger.debug("Debug log message");
         logger.info("Info log message");
         logger.error("Error log message");
