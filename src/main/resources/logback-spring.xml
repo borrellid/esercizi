@@ -43,6 +43,11 @@
 		<appender-ref ref="LogFile" /> 
 		<appender-ref ref="ConsoleOutput" /> 
 	</root> 
+
+	<root level="debug"> 
+		<appender-ref ref="LogFile" /> 
+		<appender-ref ref="ConsoleOutput" /> 
+	</root> 
 	
 	<!-- Logging at TRACE level -->
 	<logger name="com.log" level="trace" additivity="false"> 
